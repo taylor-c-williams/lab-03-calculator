@@ -1,6 +1,8 @@
 // import functions
 import { add } from './calculations.js';
-console.log(add);
+import { subtract } from './calculations.js';
+import { multiply } from './calculations.js';
+import { divide } from './calculations.js';
 
 // reference needed DOM elements
 const addXInput = document.getElementById('add-x-input');
