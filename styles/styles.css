@@ -1,21 +1,26 @@
 
 body {        
-    font-family: monospace;
+    font-family: 'Roboto Mono';
     color: rgb(222, 22, 132);
-    font-weight: bold;
     font-size: .9rem;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    background-image: url('../assets/talgaicircle.jpg');
+    background-size: 40%;
 
 }
 
 main {
-    padding: 30px;    
+    padding: 20px;    
     }
 
+   
 header {
-    background-color: #e5e8e8;
-    font-size: 1rem;
+    background-color: #d3d3d3;
+    opacity: 85%;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
     height: 110px;
     padding: 0 50px;
     display: flex;
@@ -35,14 +40,16 @@ h1 {
 }
 
 footer {
-    background-color: #FAF0EA;
+    background-color: #020202;
     padding: 10px;
+    opacity: 60%;
 }
 
 .operation {
     background:rgb(155, 215, 15);
     padding: 12px;
     border: 2px dashed black;
+    font-weight: bold;
     display: grid;
     grid-template-columns: 1fr auto 1fr auto 75px;
     grid-gap: 10px;
