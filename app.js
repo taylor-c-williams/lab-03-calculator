@@ -10,8 +10,8 @@ console.log(addXInput, addYInput, addButton, addResult);
 // set event listeners 
 
 addButton.addEventListener('click', ()=> {
-  console.log('add button clicked')
-} )
+    console.log('add button clicked');
+});
 
   // get user input(s)
   // do any needed work with the value(s)
