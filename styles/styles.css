@@ -1,12 +1,13 @@
 
 body {        
-    font-family: 'Roboto Mono';
     color: rgb(222, 22, 132);
-    font-size: .9rem;
+    font-family: monospace;
+    font-size: 2rem;    
     display: grid;
     grid-template-rows: auto 1fr auto;
     background-image: url('../assets/talgaicircle.jpg');
     background-size: 40%;
+    text-shadow: 2px 2px 0px rgb(114, 113, 113);
 
 }
 
@@ -18,9 +19,9 @@ main {
 header {
     background-color: #d3d3d3;
     opacity: 85%;
-    font-weight: bold;
     font-size: 2rem;
     text-align: center;
+    text-transform: bold;
     height: 110px;
     padding: 0 50px;
     display: flex;
@@ -58,3 +59,4 @@ footer {
     margin: 20px;
     font-size: 2rem;
 }
+
